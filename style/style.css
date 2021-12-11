@@ -1,0 +1,95 @@
+body {
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  background-color: #fff;
+
+  width: 100%;
+}
+.container {
+  max-width: 1110px;
+  margin: 0px auto;
+}
+
+.header {
+  color: #fff;
+  background: linear-gradient(
+      to right,
+      rgba(213, 32, 71, 0.8),
+      rgba(238, 61, 27, 0.8)
+    ),
+    url(../content/header_bg.png);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 187px;
+}
+
+.nav {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 45px 0;
+  line-height: 50px;
+  font-size: 18px;
+  width: 100%;
+  align-items: center;
+  font-weight: 700;
+}
+.logo_name {
+  width: fit-content;
+  float: left;
+  margin-left: 15px;
+}
+
+.navList {
+  font-weight: 500;
+  font-size: 14px;
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navList > li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.navList > li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.headerLogo {
+  height: 400px;
+}
+
+.header_h1 {
+  font-size: 72px;
+  margin-top: 120px;
+  margin-bottom: 39px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.header_h4 {
+  max-width: 540px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.header_centered {
+  align-content: center;
+}
+
+.header_btn {
+  text-transform: uppercase;
+  display: block;
+  margin: 39px auto;
+  height: 50px;
+  width: 160px;
+  color: #ed4c5c;
+  font-size: 14px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+}
